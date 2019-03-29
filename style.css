@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wrapper {
+  width: fit-content;
+  background: #000;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  font-size: 5rem;
+  background: #6d4480;
+  color: #fff;
+}
+
+.score {
+  padding: 10px;
+}
+
+.btn {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+}
